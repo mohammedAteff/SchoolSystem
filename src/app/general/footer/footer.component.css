@@ -1,0 +1,29 @@
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+#myFooter {
+    background-color: #3c3d41;
+    color: #fd7e14;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 130px;
+}
+p{
+    text-align: center;
+    font-size: 26px;
+}
+@media (max-width: 450px) {
+    footer{
+        position: relative;
+        width: 100%;
+    }
+}

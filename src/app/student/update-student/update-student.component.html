@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <div class="form-group">
+                <label> Name</label>
+                <input type="text" name="name" [(ngModel)]="student.name" class="form-control" placeholder="name">
+            </div>
+            <div class="form-group">
+                <label> Level</label>
+                <input type="text" name="level" [(ngModel)]="student.level" class="form-control" placeholder="level">
+            </div>
+            <div class="form-group">
+                <label> Language</label>
+                <input type="text" name="language" [(ngModel)]="student.language" class="form-control"
+                    placeholder="Language">
+            </div>
+            <button (click)="update()" class="btn btn-dark btn-block">update Data</button>
+        </div>
+    </div>
+</div>
